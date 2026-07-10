@@ -1,8 +1,9 @@
 <div align="center">
 
-# FinPilot
+# 🧭 Compass
 
-**Your personal money cockpit — budgeting, expense tracking, and savings forecasting that never leaves your computer.**
+**Money, Mapped.**
+*Your personal Financial Intelligence Assistant — budgeting, expense tracking, and savings forecasting that never leaves your computer.*
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi&logoColor=white)
@@ -16,13 +17,13 @@
 
 ---
 
-## Why FinPilot?
+## Why Compass?
 
-Most budgeting apps want your bank credentials, your data on their servers, and a subscription fee. FinPilot takes the opposite approach:
+Most budgeting apps want your bank credentials, your data on their servers, and a subscription fee. Compass takes the opposite approach — it points you in the right direction without ever asking you to hand over the map:
 
 - **100% local** — a single SQLite file on your machine. No cloud, no sync, no tracking.
 - **Salary-aware** — tell it what you earn and what your fixed costs are; it tells you what's safe to spend *per day* while keeping your savings on target.
-- **Forward-looking** — most apps tell you where money went. FinPilot also projects where you'll be in 6–60 months, with what-if sliders for raises and spending cuts.
+- **Forward-looking** — most apps tell you where money went. Compass also charts where you'll be in 6–60 months, with what-if sliders for raises and spending cuts.
 
 <!-- Add screenshots: create docs/screenshots/ and drop dashboard-dark.png, dashboard-light.png here -->
 
@@ -40,7 +41,7 @@ Most budgeting apps want your bank credentials, your data on their servers, and 
 - Fixed costs (rent, EMIs, subscriptions) tracked separately with due-day reminders on the dashboard
 
 **Forecasting**
-- Projects cumulative savings 6–60 months ahead from your real spending average
+- Charts cumulative savings 6–60 months ahead from your real spending average
 - What-if sliders: annual salary growth, spending increase/decrease
 - Learns from history — the more you log, the smarter the projection
 
@@ -55,8 +56,8 @@ Most budgeting apps want your bank credentials, your data on their servers, and 
 
 **1 · Get the code**
 ```bash
-git clone https://github.com/<your-username>/finpilot.git
-cd finpilot
+git clone https://github.com/AdarshJyothi/Compass.git
+cd Compass
 ```
 
 **2 · Start it**
@@ -74,7 +75,7 @@ Your browser opens at **http://localhost:8000**. The first launch creates a virt
 
 ## Configuration (optional)
 
-FinPilot runs out of the box with zero configuration. To customize it, create your own `.env` file — this is where any secret or personal setting belongs:
+Compass runs out of the box with zero configuration. To customize it, create your own `.env` file — this is where any secret or personal setting belongs:
 
 ```bash
 cd backend
@@ -118,7 +119,7 @@ The forecast extends this: average variable spend from your last 3 months, fixed
 ## Project structure
 
 ```
-finpilot/
+Compass/
 ├── start.bat / start.sh     # one-click launchers
 ├── backend/
 │   ├── run.py               # starts server + opens browser
