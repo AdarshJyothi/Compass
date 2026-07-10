@@ -14,7 +14,7 @@ export default function Sidebar({ page, setPage, user, onLogout }) {
     <aside className="flex w-52 shrink-0 flex-col border-r border-gray-200 bg-white p-3 dark:border-ink-600 dark:bg-ink-950">
       <div className="mb-4 flex items-center gap-2 px-2 py-2 text-emerald-500 dark:text-emerald-400">
         <Compass size={22} />
-        <span className="text-lg font-semibold tracking-tight">FinPilot</span>
+        <span className="text-lg font-semibold tracking-tight">Compass</span>
       </div>
       <nav className="flex flex-1 flex-col gap-1">
         {NAV.map(({ id, label, icon: Ico }) => (

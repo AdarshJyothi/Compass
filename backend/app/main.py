@@ -13,7 +13,7 @@ Base.metadata.create_all(bind=engine)
 with SessionLocal() as _db:
     seed_defaults(_db)
 
-app = FastAPI(title="FinPilot API")
+app = FastAPI(title="Compass API")
 
 app.add_middleware(
     CORSMiddleware,

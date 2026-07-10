@@ -6,5 +6,5 @@ if not exist .venv (
 )
 call .venv\Scripts\activate.bat
 pip install -q -r requirements.txt
-echo Starting FinPilot at http://localhost:8000 ...
+echo Starting Compass at http://localhost:8000 ...
 python run.py

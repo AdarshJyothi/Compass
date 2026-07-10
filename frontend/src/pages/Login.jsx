@@ -47,13 +47,13 @@ export default function Login({ onAuthed }) {
       <div className="card w-full max-w-sm p-6">
         <div className="mb-5 flex items-center gap-2 text-emerald-500 dark:text-emerald-400">
           <Compass size={26} />
-          <span className="text-xl font-semibold">FinPilot</span>
+          <span className="text-xl font-semibold">Compass</span>
         </div>
         <h1 className="mb-1 text-lg font-semibold">
           {setupComplete ? 'Welcome back' : 'Create your account'}
         </h1>
         <p className="mb-4 text-sm text-gray-500 dark:text-ink-400">
-          {setupComplete ? 'Log in to your money cockpit.' : 'One-time setup. Your data stays on this computer.'}
+          {setupComplete ? 'Money, Mapped. Welcome back.' : 'One-time setup. Your data stays on this computer.'}
         </p>
         <form onSubmit={submit} className="space-y-3">
           {!setupComplete && (
