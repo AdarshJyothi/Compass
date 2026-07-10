@@ -1,0 +1,14 @@
+# Dependencies & build output
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Your private data — never commit these
+finpilot.db
+*.db-journal
+.jwt_secret
+.env
+
+# Personal AI-assistant context (local only)
+context.md
